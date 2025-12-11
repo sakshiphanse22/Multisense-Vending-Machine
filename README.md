@@ -32,3 +32,12 @@ It integrates Raspberry Pi, sensors, servo motors, and a touchscreen to provide 
 - Operating System: Linux (Raspberry Pi OS)  
 - Communication Protocols: UART, I2C, GPIO, PWM  
 - Libraries: RPi.GPIO, smbus, pyttsx3 (for voice), Tkinter (for touchscreen UI)  
+
+---
+
+## Working
+User Interaction: The user selects an item via touchscreen, keypad, or voice command.
+Payment Processing: The system accepts coins or UPI payments and confirms the transaction.
+Item Dispensing: Based on the selection, servo/DC motors are activated to dispense the product.
+Sensor Feedback: Sensors monitor dispensing and detect errors or blockages in real-time.
+Accessibility Features: Multilingual voice guidance and visual feedback ensure inclusive operation for visually and hearing-impaired users.
